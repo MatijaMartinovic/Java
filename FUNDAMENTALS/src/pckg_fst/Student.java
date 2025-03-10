@@ -4,14 +4,14 @@ public class Student {
 
     private static String name;
     private static int yearOfStudy;
-    private static String university;
     private static String studyProgram;
+    private static String university;
 
     public Student(String name, int yearOfStudy, String university, String studyProgram) {
-        this.university = uni;
+        this.university = university;
         this.name=name;
-        this.yearOfStudy = year;
-        this.studyProgram = studyP;
+        this.yearOfStudy = yearOfStudy;
+        this.studyProgram = studyProgram;
     }
 
     public static String getName() {
