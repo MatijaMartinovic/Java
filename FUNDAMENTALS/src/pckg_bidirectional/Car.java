@@ -4,12 +4,12 @@ public class Car {
 
     private String model;
     private String brand;
-    private CarFactory carFactory;
+    private CarFactory carFactoryBrand;
 
-//    public Car(String model, String brand, carFactory carFactoryBrand){
-//        this.brand = brand;
-//        this.carFactory = carFactory;
-//        this.model = model;
+    public Car(String model, String brand, CarFactory carFactoryBrand){
+        this.brand = brand;
+        this.carFactoryBrand = carFactoryBrand;
+        this.model = model;
     }
 
     @Override
@@ -17,7 +17,7 @@ public class Car {
         return "Car{" +
                 "model='" + model + '\'' +
                 ", brand='" + brand + '\'' +
-                ", carFactory=" + carFactory +
+                ", carFactory=" + carFactoryBrand +
                 '}';
     }
 }

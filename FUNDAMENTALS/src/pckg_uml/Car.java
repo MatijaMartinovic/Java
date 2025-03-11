@@ -6,10 +6,15 @@ public class Car {
     private String model;
     private Mechanic mechanic;
 
-    public Car(String brand, String model){
+    public Car(String brand, String model) {
         this.brand = brand;
         this.model = model;
 
+    }
+
+
+    public void setMechanic(Mechanic mechanic) {
+        this.mechanic = mechanic;
     }
 
     @Override
@@ -22,10 +27,6 @@ public class Car {
     }
 
     public void serviceCar(){
-        System.out.println(mechanic+" performing service on the: " + this.getClass().getSimpleName());
-    }
-
-    public void setMechanic(Mechanic mechanic) {
-        this.mechanic = mechanic;
+        System.out.println(mechanic + " perforiming service on the: " + this.getClass().getSimpleName());
     }
 }
