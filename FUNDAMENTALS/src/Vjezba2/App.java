@@ -3,7 +3,7 @@ package Vjezba2;
 import Vjezba3.Robot;
 import org.w3c.dom.ls.LSOutput;
 
-import static Vjezba3.Robot.factJel;
+import static Vjezba3.Robot.*;
 
 public class App {
     public static void main(String[] args) {
@@ -13,6 +13,11 @@ public class App {
         robot.walk();
         factJel(robot.getId());
         System.out.println("Factoriel of " + robot.getId() + " is " + factJel(robot.getId()));
+        for(int k=0;k<20;k++){
+            fillArr(k);
+        }
+        printArr();
+        printMatrix();
     }
 
 }
