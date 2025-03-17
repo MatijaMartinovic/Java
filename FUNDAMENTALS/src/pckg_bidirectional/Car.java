@@ -10,7 +10,7 @@ public class Car {
         this.brand = brand;
         this.carFactoryBrand = carFactoryBrand;
         this.model = model;
-    }
+}
 
     @Override
     public String toString() {
