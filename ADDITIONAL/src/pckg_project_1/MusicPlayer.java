@@ -1,5 +1,7 @@
 package pckg_project_1;
 
+import java.util.Arrays;
+
 public class MusicPlayer extends MediaDevice{
 
     private int currentSong;
@@ -45,6 +47,13 @@ public class MusicPlayer extends MediaDevice{
             }
             return -1;
         }
+
+        @Override
+        public String toString() {
+            return "PlayList{" +
+                    "songs=" + Arrays.toString(songs) +
+                    '}';
+        }
     }
 
     @Override
@@ -54,26 +63,47 @@ public class MusicPlayer extends MediaDevice{
 
     @Override
     public void play() {
-
+        System.out.println("Playing song in playlist: " + currentSong);
     }
 
     @Override
     public void pause() {
-
+        System.out.println("Pause on the song: " + currentSong);
     }
 
     @Override
     public void stop() {
-
+        System.out.println("Stop playing playlist on: " + this.getClass().getSimpleName());
     }
 
     @Override
     public void next() {
-
+        if(currentSong == this.playList.getSongsFromPlaylist().length-1){
+            this.currentSong = 1;
+            System.out.println("Going to the first song!");
+        }else{
+            this.currentSong++;
+        }
     }
 
     @Override
     public void previous() {
+        if(currentSong == 1){
+            this.currentSong = playList.getSongsFromPlaylist().length-1;
+            System.out.println("Going to the last song!");
+        }else{
+            this.currentSong--;
+            System.out.println("Going to the previous song!");
+        }
+    }
 
+    @Override
+    public String toString() {
+        return "MusicPlayer{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                "currentSong=" + currentSong +
+                ", playList=" + playList +
+                '}';
     }
 }
