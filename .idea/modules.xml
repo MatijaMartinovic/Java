@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ADDITIONAL/ADDITIONAL.iml" filepath="$PROJECT_DIR$/ADDITIONAL/ADDITIONAL.iml" />
       <module fileurl="file://$PROJECT_DIR$/FUNDAMENTALS/src/Abstraction/Abstraction.iml" filepath="$PROJECT_DIR$/FUNDAMENTALS/src/Abstraction/Abstraction.iml" />
       <module fileurl="file://$PROJECT_DIR$/DATA_STRUCTURES/DATA_STRUCTURES.iml" filepath="$PROJECT_DIR$/DATA_STRUCTURES/DATA_STRUCTURES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXCEPTIONS/EXCEPTIONS.iml" filepath="$PROJECT_DIR$/EXCEPTIONS/EXCEPTIONS.iml" />
       <module fileurl="file://$PROJECT_DIR$/FUNDAMENTALS/FUNDAMENTALS.iml" filepath="$PROJECT_DIR$/FUNDAMENTALS/FUNDAMENTALS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
     </modules>
