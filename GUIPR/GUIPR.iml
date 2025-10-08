@@ -3,12 +3,9 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/GIT2/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GIT2/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/GIT2/target" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.10.1" level="project" />
   </component>
 </module>
